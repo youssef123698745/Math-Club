@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Math Club</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" alt="math club logo | Liz Elwell ~ artist &amp; educator" class="n3VNCb" src="https://lizelwell.files.wordpress.com/2009/12/math-club-logo.jpg?w=785">Math Club
+            </div>
+	<nav id="nav-bar">
+		<ul>
+			<li><a class="nav-link" href="#about">About Us</a></li>
+            <li><a class="nav-link" href="exam.html">Exam</a></li>
+			<li><a class="nav-link" href="olympiade.html">Olympiade</a></li>
+			<li><a class="nav-link" href="signup.html">Sign Up</a></li>
+			<li><a class="nav-link" href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="page-top"></div>
+<main>
+	<div id="about" class="left_side">
+        <h1>The best Club in Math</h1>
+        <h4>We are a club , we help the people to prepare to Exam or Olympiade , we have the Exam with English and French .</h4>
+		<a href="cours.html"><button class="main_btn">Get Started</button></a>
+		<div class="social">
+			<button class="outline_btn"><i class="fa"><img src="https://i.ibb.co/rwYdPpc/linkedin.png" height="12px" alt=""></i></button>
+			<button class="outline_btn"><i class="fa"><img src="https://i.ibb.co/64r5bpF/facebook.png" height="12px" alt=""></i></button>
+			<button class="main_btn"><i class="fa"><img src="https://i.ibb.co/KF4yhbT/twitter.png" height="14px" alt=""></i></button>
+		</div>
+	</div>
+	<div class="right_side">
+		<div class="video-div">            
+            <iframe id="video" src="https://www.youtube.com/embed/OmJ-4B-mS-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+</main>
+<p class="show_more">We can help you in Exam of Math and Olympiade.<i class="fa fa-play-circle-o"></i></p>
+<section id="services">
+	<div class="item">
+		<button class="main_btn"><i class="fa"><img src="https://i.ibb.co/PMQXvMg/extension.png" height="20px" alt=""></i></button>
+		<h5>Hard Exam</h5>
+		<p>We can give you many exam from many school , college from the worsd .</p>
+	</div>
+	<div class="item">
+		<button class="main_btn second"><i class="fa"><img src="https://i.ibb.co/jZ1Z38R/miscellaneous.png" height="20px" alt=""></i></button>
+		<h5>Olympiade</h5>
+		<p>We can give you manu example of olympiade from many country and international .</p>
+	</div>
+	<div class="text_content">
+		<h2>Why choose us!</h2>
+    <p>Because we are the first at the world and we have many exam and olympiade with +10 language .</p>
+    <a href="cours.html"><button class="outline_btn">Get Started</button></a>
+	</div>
+</section>
+<div id="contact" class="form">
+	<br>
+	<form id="my-form"
+	action="https://formspree.io/f/mnqoobzo"
+	method="POST">
+	<input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+	<br>
+	<br>
+	<input name="message" id="email" type="text" placeholder="Enter your Message" required/>
+	<br>
+	<br>
+	<button id="my-form-button" class="button">Submit</button>
+	<p id="my-form-status"></p>
+	</form>
+</div>
+<style>
+	.form{
+		text-align: center;
+	}
+	.button {
+	  position: relative;
+	  background-color: #4FC8B2;
+	  border: none;
+	  font-size: 28px;
+	  color: #FFFFFF;
+	  padding: 20px;
+	  width: 150px;
+	  text-align: center;
+	  -webkit-transition-duration: 0.4s; /* Safari */
+	  transition-duration: 0.4s;
+	  text-decoration: none;
+	  overflow: hidden;
+	  cursor: pointer;
+	  border-radius:5%;
+	}
+	
+	.button:after {
+	  content: "";
+	  background: #90EE90;
+	  display: block;
+	  position: absolute;
+	  padding-top: 300%;
+	  padding-left: 350%;
+	  margin-left: -20px!important;
+	  margin-top: -120%;
+	  opacity: 0;
+	  transition: all 0.8s
+	}
+	
+	.button:active:after {
+	  padding: 0;
+	  margin: 0;
+	  opacity: 1;
+	  transition: 0s
+	}
+</style>
+<footer>
+	<ul>
+		<li><a href="privacy.html">Privacy</a></li>
+		<li><a href="terms.html">Terms</a></li>
+	</ul>
+	<span>&copy; 2020, Youssef Boumhaout</span>
+</footer>
+<!--Javascript-->
+<script src="index.js"></script>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/f/mnqoobzo"})
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Math Club : Classes</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="cours.css">
+    </head>
+    <body>
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" alt="math club logo | Liz Elwell ~ artist &amp; educator" class="n3VNCb" src="https://lizelwell.files.wordpress.com/2009/12/math-club-logo.jpg?w=785">Math Club
+            </div>
+	<nav id="nav-bar">
+		<ul>
+			<li><a class="nav-link" href="index.html">About Us</a></li>
+            <li><a class="nav-link" href="exam.html">Exam</a></li>
+            <li><a class="nav-link" href="olympiade.html">Olympiade</a></li>
+			<li><a class="nav-link" href="signup.html">Sign Up</a></li>
+			<li><a class="nav-link" href="index.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="wrapper">
+    <a href="exam.html"><button class="g">Exam</button></a>
+</div>
+<div class="wrapper">
+    <a href="exam.html"><button class="g">Olympiade</button></a>
+</div>
+<div id="contact" class="form">
+    <br>
+    <form id="my-form"
+    action="https://formspree.io/f/mnqoobzo"
+    method="POST">
+    <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+    <br>
+    <br>
+    <input name="message" id="email" type="text" placeholder="Enter your Message" required/>
+    <br>
+    <br>
+    <button id="my-form-button" class="button">Submit</button>
+    <p id="my-form-status"></p>
+    </form>
+</div>
+<style>
+    .form{
+        text-align: center;
+    }
+    .button {
+      position: relative;
+      background-color: #4FC8B2;
+      border: none;
+      font-size: 28px;
+      color: #FFFFFF;
+      padding: 20px;
+      width: 150px;
+      text-align: center;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      border-radius:5%;
+    }
+    
+    .button:after {
+      content: "";
+      background: #90EE90;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px!important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s
+    }
+    
+    .button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s
+    }
+</style>
+<footer>
+	<ul>
+		<li><a href="privacy.html">Privacy</a></li>
+		<li><a href="terms.html">Terms</a></li>
+	</ul>
+	<span>&copy; 2020, Youssef Boumhaout</span>
+</footer>
+<!--Javascript-->
+<script src="index.js"></script>
+<script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+<script>
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+  formbutton("create", {action: "https://formspree.io/f/mnqoobzo"})
+</script>
+</body>
+</html>

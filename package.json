@@ -1,0 +1,16 @@
+{
+  "name": "math",
+  "version": "1.0.0",
+  "description": "this a club of math",
+  "main": "index.js",
+  "scripts": {
+    "test": "CMD"
+  },
+  "keywords": [
+    "Club",
+    "Math",
+    "MathClub"
+  ],
+  "author": "youssef boumhaout",
+  "license": "MIT"
+}
